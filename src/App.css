@@ -1,0 +1,193 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.s-page , .t-page{
+  padding: 0;
+}
+
+.s-content , .t-content{
+  min-height: 80vh;
+}
+
+.s-footer , .t-footer{
+height:50px;
+}
+
+.student .card-body img{
+  height: 100%;
+  width:100%;
+}
+
+.teacher .card-body img{
+  height: 100%;
+  width:100%;
+}
+
+.partition{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.std-container , .thr-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin-left: 100px;
+}
+
+.dashboard{
+  height: 81vh;
+}
+
+.student .card-body ,  .teacher .card-body{
+  height:180px;
+  width:268px;
+}
+
+@media (max-width:720px){
+
+
+  .student .card-body ,  .teacher .card-body{
+    height:150px;
+    width:100%;
+  }
+
+  .teacher .card-body img , .student .card-body img{
+    height: 100%;
+    width:100%;
+  }
+
+  .std-container , .thr-container{
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  
+}
+
+@media (max-width:540px){
+
+  .partition{
+    display: block;
+  }
+
+  .student .card-body ,  .teacher .card-body{
+    height:180px;
+    width:100%;
+    background-color: black;
+  }
+
+  .teacher .card-body img , .student .card-body img{
+    height: 100%;
+    width:100%;
+  }
+
+  .dashboard{
+    height: 100vh;
+  }
+
+  .footer{
+    position: relative;
+    bottom:0px;
+  }
+
+  .std-container , .thr-container{
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+}
+
+.btn{
+  margin-right:5px;
+  padding: 8px;
+}
+
+.AddField{ 
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding:0px !important;
+  margin: 0 !important;
+}
+
+.layout{
+  padding:0 ;
+}
+
+.header{
+  background-color: black;
+  height:80px;
+ 
+}
+
+.footer{
+  background-color: black;
+  height:50px;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom: 0;
+}
+
+body{
+  position: relative;
+  min-height:100%;
+}
+
+.s-footer{
+  height:63px;
+}
+
+.dashboard{
+  min-height:calc( 100vh - (48px+55px) );
+}
+
+.content{
+  background-color: rgb(1, 12, 9);
+  margin: 0;
+}
+
+.s-content{
+  padding:0 ;
+}
+
+.main{
+  padding:0;
+  margin:0;
+  height:100vh;
+}
+
+.view-card{
+  background-color: purple;
+  height:80vh;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  color:white;
+  background-color: black;
+}
+
+.nav-item{
+  display: block;
+  margin: 10px;
+}
+
+ul li button{
+  width:125px;
+}
+
+.add-teacher-title{
+  margin-top: 15px;
+}
+
+  
+
